@@ -1,0 +1,304 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .carousel-item{
+    img{
+         width: 100vw;
+        height: 100vh;
+     }
+     .carousel-caption{
+         padding-bottom: 10rem;
+         h2{
+             font-size: 3.1rem;
+             padding-bottom: 1rem;
+             font-family: 'Poppins', sans-serif;
+             font-weight: 600;
+         }
+         p{
+             padding-left: 11rem;
+             padding-right: 11rem;
+             padding-bottom: 3rem;
+         }
+         button{
+             text-align: center;
+             padding: .5rem 1.2rem .5rem 1.2rem;
+             border: none;
+             background-color: rgb(214, 124, 91);
+             color: white;
+         }
+         .drop{
+             padding-top: 1rem;
+             font-size: 4rem;
+             transition: all ease 2s;
+         }
+     }
+    }
+    //second page
+    .aboutus{
+        padding: 8rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .1rem;
+        height: 100vh;
+        font-family: 'Poppins', sans-serif;
+       .galery{
+           position: relative;
+           padding: 3rem;
+           img{
+            border: .1rem solid white;
+            border-radius: .3rem;
+            padding: .5rem;
+            transform: rotate(-23deg);
+            width: 23rem;
+            box-shadow: 0 4px 8px 0 rgb(71, 65, 65);
+           }
+           .tea{
+               position: absolute;
+               top: 11rem;
+           }
+           
+       }
+       .about{
+           h4{
+               color: #ff5722;
+               font-weight: 500;
+               font-size: 1rem;
+           }
+           h1{
+            font-weight: 200;
+            font-size: 2.3rem;
+            color: #212529 ;
+            padding-bottom: 1rem;
+           }
+           p{
+               padding-bottom: 1rem;
+               font-weight: 200;
+               font-size: 1.2rem;
+               font-family: 'Source Sans Pro', sans-serif;
+               color: #999999;
+            }
+           .person{
+            display: flex;
+            font-family: 'Source Sans Pro', sans-serif;
+            img{
+                border-radius: 50%;
+            }
+            .name{
+                padding: 1rem;
+                h5{
+                    font-weight: 600;
+                }
+                h6{
+                    font-weight: 400;
+                    color: #999999;
+                }
+            }
+            
+           }
+       }
+    }
+    .care{
+        padding: 5rem;
+        background-color: rgb(0, 191, 165);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        .circle{
+            padding-bottom: 1rem;
+            i{
+             color: white;
+             font-size: 2rem;
+             border-radius: 50%;
+             border: .1rem solid white;
+             width: 90px;
+             height: 90px;
+             line-height: 2.8;
+            }
+        }
+        h2{
+            padding: 2rem 0 1rem 0;
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+        p{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            color: #fdfdfd;
+            font-size: 1rem;
+            padding: 0 3rem 0 3rem;
+        }
+    }
+    .blog{
+        padding: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        &::before{
+            content: ' ';
+            background: #ececec;
+            position: absolute;
+            left: 29px;
+            width: 2px;
+            height: 100%;
+        }
+        .latest{
+            padding: 1rem;
+            h1{
+                text-align: center;
+                padding-bottom: 1rem;
+                
+            }
+            .dates{
+                padding-bottom: 1rem;
+                .head{
+                    display: flex;
+                    .nov{
+                        margin-left: auto;
+                        color: gray;
+                    }
+                }
+            }
+        }
+        .picture{
+            img{
+                border-radius: 1%;
+            }
+        }
+    }
+.choose{
+    padding: 4rem;
+    height: 100vh;
+    h1{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .dane{
+        padding: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        .card{
+            border: lightgray .1rem solid;
+            //box-shadow: 0 4px 8px 0 black;
+        }
+        .container{
+            padding: 1rem;
+            h4{
+                font-size: 2rem;
+            }
+            h5{
+                padding-bottom: 1rem;
+                font-size: .9rem;
+            }
+            p{
+                font-size: 1.3rem;
+                color: lightgray;
+            }
+        }
+    }
+}
+.cara{
+    background-image: url(https://images.pexels.com/photos/4503263/pexels-photo-4503263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    color: white;
+    height: 70vh;
+    h4{
+        text-align: center;
+        padding: 3rem;
+    }
+    .sat{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        .te{
+            display: flex;
+            padding: 3rem;
+            i{
+                font-size: 1.5rem;
+                padding: 1rem;
+                background-color: rgb(0, 191, 165);
+                border-radius: .3rem;
+            }
+            .happy{
+                padding: .5rem;
+            }
+        }
+    }
+}
+
+.poy{
+    text-align: center;
+    height: 100vh;
+    h1{
+        padding-bottom: 2rem;
+    }
+    .team{
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        .photos{
+            h3{
+                padding: 1rem;
+            }
+            .online{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding-left: 5rem;
+                padding-right: 5rem;
+                grid-gap: .5rem;
+                .facebook{
+                    background-color: lightskyblue;
+                    &:hover{
+                        transform:rotatey(405deg) rotatex(405deg);
+                        cursor: pointer;
+                    }
+                }
+                .twit{
+                    background-color: darkblue;
+                    &:hover{
+                        transform:rotatey(405deg) rotatex(405deg);
+                        cursor: pointer;
+                    }
+                }
+                .google{
+                    background-color: rgb(226, 67, 67);
+                    &:hover{
+                        transform:rotatey(405deg) rotatex(405deg);
+                        cursor: pointer;
+                    }
+                }
+                i{
+                    font-size: 1rem;
+                    padding: .5rem;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.quote{
+    height: 70vh;
+    background-image: url(https://images.pexels.com/photos/1470171/pexels-photo-1470171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    padding: 12rem 0 0 8rem ;
+    p{
+        font-size: 1rem;
+        padding: 0 45rem 0 0;
+        position: relative;
+        i{
+            position: absolute;
+            top: -.5rem;
+            left: -1.5rem;
+        }
+    }
+}

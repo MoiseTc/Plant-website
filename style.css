@@ -1,1 +1,378 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.carousel-item img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel-item .carousel-caption {
+  padding-bottom: 10rem;
+}
+
+.carousel-item .carousel-caption h2 {
+  font-size: 3.1rem;
+  padding-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.carousel-item .carousel-caption p {
+  padding-left: 11rem;
+  padding-right: 11rem;
+  padding-bottom: 3rem;
+}
+
+.carousel-item .carousel-caption button {
+  text-align: center;
+  padding: .5rem 1.2rem .5rem 1.2rem;
+  border: none;
+  background-color: #d67c5b;
+  color: white;
+}
+
+.carousel-item .carousel-caption .drop {
+  padding-top: 1rem;
+  font-size: 4rem;
+  -webkit-transition: all ease 2s;
+  transition: all ease 2s;
+}
+
+.aboutus {
+  padding: 8rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: .1rem;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutus .galery {
+  position: relative;
+  padding: 3rem;
+}
+
+.aboutus .galery img {
+  border: .1rem solid white;
+  border-radius: .3rem;
+  padding: .5rem;
+  -webkit-transform: rotate(-23deg);
+          transform: rotate(-23deg);
+  width: 23rem;
+  -webkit-box-shadow: 0 4px 8px 0 #474141;
+          box-shadow: 0 4px 8px 0 #474141;
+}
+
+.aboutus .galery .tea {
+  position: absolute;
+  top: 11rem;
+}
+
+.aboutus .about h4 {
+  color: #ff5722;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.aboutus .about h1 {
+  font-weight: 200;
+  font-size: 2.3rem;
+  color: #212529;
+  padding-bottom: 1rem;
+}
+
+.aboutus .about p {
+  padding-bottom: 1rem;
+  font-weight: 200;
+  font-size: 1.2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #999999;
+}
+
+.aboutus .about .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.aboutus .about .person img {
+  border-radius: 50%;
+}
+
+.aboutus .about .person .name {
+  padding: 1rem;
+}
+
+.aboutus .about .person .name h5 {
+  font-weight: 600;
+}
+
+.aboutus .about .person .name h6 {
+  font-weight: 400;
+  color: #999999;
+}
+
+.care {
+  padding: 5rem;
+  background-color: #00bfa5;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.care .circle {
+  padding-bottom: 1rem;
+}
+
+.care .circle i {
+  color: white;
+  font-size: 2rem;
+  border-radius: 50%;
+  border: .1rem solid white;
+  width: 90px;
+  height: 90px;
+  line-height: 2.8;
+}
+
+.care h2 {
+  padding: 2rem 0 1rem 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.care p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #fdfdfd;
+  font-size: 1rem;
+  padding: 0 3rem 0 3rem;
+}
+
+.blog {
+  padding: 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.blog::before {
+  content: ' ';
+  background: #ececec;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+}
+
+.blog .latest {
+  padding: 1rem;
+}
+
+.blog .latest h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.blog .latest .dates {
+  padding-bottom: 1rem;
+}
+
+.blog .latest .dates .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog .latest .dates .head .nov {
+  margin-left: auto;
+  color: gray;
+}
+
+.blog .picture img {
+  border-radius: 1%;
+}
+
+.choose {
+  padding: 4rem;
+  height: 100vh;
+}
+
+.choose h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.choose .dane {
+  padding: 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.choose .dane .card {
+  border: lightgray .1rem solid;
+}
+
+.choose .dane .container {
+  padding: 1rem;
+}
+
+.choose .dane .container h4 {
+  font-size: 2rem;
+}
+
+.choose .dane .container h5 {
+  padding-bottom: 1rem;
+  font-size: .9rem;
+}
+
+.choose .dane .container p {
+  font-size: 1.3rem;
+  color: lightgray;
+}
+
+.cara {
+  background-image: url(https://images.pexels.com/photos/4503263/pexels-photo-4503263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  color: white;
+  height: 70vh;
+}
+
+.cara h4 {
+  text-align: center;
+  padding: 3rem;
+}
+
+.cara .sat {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cara .sat .te {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem;
+}
+
+.cara .sat .te i {
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: #00bfa5;
+  border-radius: .3rem;
+}
+
+.cara .sat .te .happy {
+  padding: .5rem;
+}
+
+.poy {
+  text-align: center;
+  height: 100vh;
+}
+
+.poy h1 {
+  padding-bottom: 2rem;
+}
+
+.poy .team {
+  padding: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.poy .team .photos h3 {
+  padding: 1rem;
+}
+
+.poy .team .photos .online {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  grid-gap: .5rem;
+}
+
+.poy .team .photos .online .facebook {
+  background-color: lightskyblue;
+}
+
+.poy .team .photos .online .facebook:hover {
+  -webkit-transform: rotatey(405deg) rotatex(405deg);
+          transform: rotatey(405deg) rotatex(405deg);
+  cursor: pointer;
+}
+
+.poy .team .photos .online .twit {
+  background-color: darkblue;
+}
+
+.poy .team .photos .online .twit:hover {
+  -webkit-transform: rotatey(405deg) rotatex(405deg);
+          transform: rotatey(405deg) rotatex(405deg);
+  cursor: pointer;
+}
+
+.poy .team .photos .online .google {
+  background-color: #e24343;
+}
+
+.poy .team .photos .online .google:hover {
+  -webkit-transform: rotatey(405deg) rotatex(405deg);
+          transform: rotatey(405deg) rotatex(405deg);
+  cursor: pointer;
+}
+
+.poy .team .photos .online i {
+  font-size: 1rem;
+  padding: .5rem;
+  color: white;
+}
+
+.quote {
+  height: 70vh;
+  background-image: url(https://images.pexels.com/photos/1470171/pexels-photo-1470171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  padding: 12rem 0 0 8rem;
+}
+
+.quote p {
+  font-size: 1rem;
+  padding: 0 45rem 0 0;
+  position: relative;
+}
+
+.quote p i {
+  position: absolute;
+  top: -.5rem;
+  left: -1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
